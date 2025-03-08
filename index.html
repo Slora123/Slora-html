@@ -3,30 +3,52 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index_page.css">
 </head>
 
 <body>
-    <p>
-        <img src="https://proshweta.com/images/proshweta/1.png" alt="Image" width="450" align="right">
-    </p>
-    <p>
-        <font size="7">Hi,</font>
-    </p>
-    <p>
-        <font>
-            <h1>I'm
-                <font color="orange">
-                    Slora
-            </h1>
-        </font>
-    </p>
-    <p>
-    <h4>I am a First-Year student at Fr. Conceicao Rodrigues College of Engineering (FrCRCE),<br> pursuing a degree in
-        Computer Engineering.<br> I am passionate about coding and eager to explore the world of technology.</h4>
-    </p>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Education.html">Education</a></li>
+            <li><a href="Projects.html">Projects</a></li>
+            <li><a href="about.html">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- Profile Section -->
+    <p><img id="i1" src="c:\Users\Lenovo\Downloads\my_pic.jpg" alt="My Photo" width="150" align="left"></p>
+    <p id="t1">Slora Rajesh Bar</p>
+    <p id="t2">First-Year student at <u>Fr. Conceicao Rodrigues College of Engineering (FrCRCE)</u>,<br> pursuing a
+        degree in Computer Engineering.<br> I am passionate about coding and continuously strive to enhance my<br>
+        problem-solving skills through hands-on practice and learning 📖</p>
+    <hr>
+    <h2>Skills</h2>
+    <div class="skills-container">
+        <img src="pylogo.svg" alt="Python Logo" class="skill-logo">
+        <img src="javalogo.svg" alt="Java Logo" class="skill-logo">
+        <img src="clogo.svg" alt="C Logo" class="skill-logo">
+        <img src="c++logo.svg" alt="C++ Logo" class="skill-logo">
+        <img src="htmllogo.svg" alt="HTML Logo" class="skill-logo">
+        <img src="csslogo.svg" alt="CSS Logo" class="skill-logo">
+    </div>
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill">
+            <label for="python">Python:</label>
+            <progress id="python" value="80" max="100">80%</progress>
+        </div>
+        <div class="skill">
+            <label for="java">Java:</label>
+            <progress id="java" value="70" max="100">70%</progress>
+        </div>
+        <div class="skill">
+            <label for="html">HTML:</label>
+            <progress id="html" value="90" max="100">90%</progress>
+        </div>
+    </section>
 
 
 </body>
