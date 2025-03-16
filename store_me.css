@@ -11,7 +11,7 @@ html, body {
     overflow-x: hidden;
 }
 body {
-    background: url('new_bg.jpg') no-repeat center center fixed;
+    background: url('C:/Users/Lenovo/vscodehtml/Slora-html/bg.avif') no-repeat center center fixed;
     background-size: cover;
 }
 nav {
